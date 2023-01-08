@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  text-align: center;
+}
+.banner img {
+  margin-top: 3rem;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.header a:last-child {
+  position: absolute;
+  margin-left: auto;
+  left: 93%;
+}
+
+.pemesanan .title_pemesanan h1 {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.table_pemesanan table {
+  margin: 0 auto;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.container {
+  margin-bottom: 6rem;
+}
+
+.footer {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 6rem;
+  bottom: 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .contact {
+  display: flex;
+  align-items: center;
+}
+
+.footer .contact img {
+  margin-right: 10px;
+}
