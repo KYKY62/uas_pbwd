@@ -33,23 +33,62 @@
         <div class="container">
             <form role="form" method="POST" action="input.php" class="w-50 m-auto">
                 <div class="form-check">
-                    <label>Category Name</label>
-                    <input class="form-control" name="cat_name">
+                    <label>Username</label>
+                    <!-- <input class="form-control" name="id_user"> -->
                 </div>
                 <div class="form-check">
-                    <label>Category Text</label>
-                    <input class="form-control" name="cat_text">
+                    <td>
+                        <select id="id_user" name="id_user">
+                            <option>Data harus berisi</option>
+                            <?php
+                            include "koneksi.php";
+                            $sql_check = "SELECT * FROM users";
+                            $result_check = $connect->query($sql_check);
+                            while ($row = mysqli_fetch_array($result_check)) {
+                                echo   "<option value=$row[id]>$row[username]</option>";
+                            }
+                            ?>
+                        </select>
+                    </td>
+                </div>
+                <div class="form-check">
+                    <label>Nama Pemesan</label>
+                    <input class="form-control" name="name_pemesan">
+                </div>
+                <div class="form-check">
+                    <label>Alamat</label>
+                    <input class="form-control" name="alamat">
+                </div>
+                <div class="form-check">
+                    <label>Jumlah tabung yang dipesan</label>
+                    <input class="form-control" name="jumlah_tabung">
+                </div>
+                <div class="form-check">
+                    <label>Status Pemesanan</label>
+                    <!-- <input class="form-control" name="id_tracking"> -->
+                </div>
+                <div class="form-check">
+                    <td>
+                        <select name="id_tracking">
+                            <option>Data harus berisi</option>
+                            <?php
+                            include "koneksi.php";
+                            $sql_check = "SELECT * FROM tracking";
+                            $result_check = $connect->query($sql_check);
+                            while ($row = mysqli_fetch_array($result_check)) {
+                                echo "<option value=$row[id]>$row[status]</option>";
+                            }
+                            ?>
+                        </select>
+                    </td>
                 </div>
                 <div class="form-check">
                     <button type="submit" class="btn btn-success pull-right mt-3 me-3">Simpan</button>
                     <a href="home.php" class="btn btn-danger pull-right mt-3" style="margin-right:1%;">Batal</a>
                 </div>
-
             </form>
         </div>
-
     </div>
-
 
     <div class="footer">
 

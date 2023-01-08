@@ -30,30 +30,33 @@
         <div class="title_pemesanan">
             <h1>Pemesanan</h1>
         </div>
-        <div class="table_pemesanan">
-            <table>
+        <div class="table_pemesanan p-5">
+            <table class="table table-striped text-align-center">
                 <tr>
                     <th>Id</th>
                     <th>UserName</th>
                     <th>Nama Pemesan</th>
                     <th>Alamat</th>
                     <th>Jumlah Tabung</th>
+                    <th>Status</th>
+                    <th>Nama Pengantar</th>
+                    <th>Action</th>
                 </tr>
                 <?php
 
                 include "koneksi.php";
 
-                $sql_check = "SELECT id, username_pemesan, name_pemesan, alamat,jumlah_tabung FROM  pemesanan ORDER BY id ASC";
+                $sql_check = "SELECT * FROM  pemesanan , users, tracking WHERE pemesanan.id_user = users.id && pemesanan.id_tracking = tracking.id";
 
                 $result_check = $connect->query($sql_check);
                 while ($row = mysqli_fetch_array($result_check)) {
                 ?>
                     <tr>
                         <td>
-                            <?php echo $row['id']; ?>
+                            <?php echo $row['id_pemesanan']; ?>
                         </td>
                         <td>
-                            <?php echo $row['username_pemesan']; ?>
+                            <?php echo $row['username']; ?>
                         </td>
                         <td>
                             <?php echo $row['name_pemesan']; ?>
@@ -63,6 +66,12 @@
                         </td>
                         <td>
                             <?php echo $row['jumlah_tabung']; ?>
+                        </td>
+                        <td>
+                            <?php echo $row['status']; ?>
+                        </td>
+                        <td>
+                            <?php echo $row['nama_pengantar']; ?>
                         </td>
                         <td>
                             <a class="btn btn-success" href="tambah.php">Tambah</a>
