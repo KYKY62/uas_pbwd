@@ -34,7 +34,6 @@
             <form role="form" method="POST" action="input.php" class="w-50 m-auto">
                 <div class="form-check">
                     <label>Username</label>
-                    <!-- <input class="form-control" name="id_user"> -->
                 </div>
                 <div class="form-check">
                     <td>
@@ -65,7 +64,6 @@
                 </div>
                 <div class="form-check">
                     <label>Status Pemesanan</label>
-                    <!-- <input class="form-control" name="id_tracking"> -->
                 </div>
                 <div class="form-check">
                     <td>

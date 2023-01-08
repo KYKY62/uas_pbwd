@@ -8,16 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/style.css">
-    <!-- CSS footer -->
-    <link rel="stylesheet" href="CSS/utils/style.css">
-    <link rel="stylesheet" href="CSS/utils/responsive.css">
+
     <title>Document</title>
 </head>
 
 <body>
     <div class="header">
         <a href="#">Home</a>
-        <a href="#">Pemesanan</a>
+        <a href="tambah.php">Pemesanan</a>
         <a href="#">Tentang</a>
         <a href="#">Kontak</a>
         <a href="#">LogOut</a>
@@ -75,9 +73,8 @@
                         </td>
                         <td>
                             <a class="btn btn-success" href="tambah.php">Tambah</a>
-                            <a class="btn btn-success ms-2 me-2" href="detail.php?id=<?php echo $row['cat_id']; ?>">Detail</a>
-                            <a class="btn btn-success  me-2" href="edit.php?id=<?php echo $row['cat_id']; ?>">Edit</a>
-                            <a class="btn btn-danger" href="hapus.php?id=<?php echo $row['cat_id']; ?>">Hapus</a>
+                            <a class="btn btn-success  me-2" href="edit.php?id=<?php echo $row['id_pemesanan']; ?>">Edit</a>
+                            <a class="btn btn-danger" href="hapus.php?id=<?php echo $row['id_pemesanan']; ?>">Hapus</a>
                         </td>
                     </tr>
                 <?php
