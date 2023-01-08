@@ -5,7 +5,8 @@
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styleLogin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
@@ -19,6 +20,7 @@
         <div class="form">
 
             <form method="POST" action="login.php">
+                <h1 class="text-white">RAS GAS</h1>
                 <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_m6j5igxb.json" style="justify-content: center;" loop autoplay></lottie-player>
                 <input type="text" placeholder="&#xf007;  username" class="form-control" name="username" />
                 <input type="password" id="password" placeholder="&#xf023;  password" class="form-control" name="password" />
@@ -26,7 +28,6 @@
                 <br>
                 <br>
                 <button type="submit">LOGIN</button>
-                <a href="home.php" class="btn btn-success pull-right" <p class="message"></p>
             </form>
 
         </div>

@@ -7,17 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Aplikasi CRUD Sederhana</title>
 </head>
 
 <body>
     <div class="header">
-        <a href="#">Home</a>
-        <a href="#">Pemesanan</a>
-        <a href="#">Tentang</a>
-        <a href="#">Kontak</a>
-        <a href="#">LogOut</a>
+        <a href="home.php">Home</a>
+        <a href="tambah.php">Pemesanan</a>
+        <a href="#kontak">Kontak</a>
+        <a href="index.php">LogOut</a>
     </div>
     <div class="banner">
         <img src="images/banner.png" alt="" srcset="">
@@ -58,15 +57,15 @@
         </form>
 
     </div>
-    <div class="footer">
+    <div class="footer" id="kontak">
 
         <div class="contact">
-            <img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="Alamat" width="20">
-            <p>Jl. Merdeka No. 1, Jakarta</p>
+            <img src="images/location_icon.png" alt="Alamat" width="20">
+            <p>Jl. Karya Jaya Gg Seroja, Medan</p>
         </div>
         <div class="contact">
-            <img src="https://image.flaticon.com/icons/svg/1409/1409705.svg" alt="Telepon" width="20">
-            <p>123-456-7890</p>
+            <img src="images/customer_icon.png" alt="Telepon" width="20">
+            <p>0895-3254-1132</p>
         </div>
         <p>Terima kasih telah mengunjungi website kami!</p>
     </div>
