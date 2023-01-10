@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Login</title>
+    <title>RAS GAS</title>
+    <link rel="icon" href="images/logo_gas.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="styleLogin.css">

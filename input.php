@@ -16,4 +16,4 @@ $sql_check = "INSERT INTO pemesanan SET
 			  jumlah_tabung = '$jumlah_tabung'";
 
 $result_check = $connect->query($sql_check);
-header('location:home.php');
+header('location:home.php#pemesanan');

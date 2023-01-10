@@ -14,4 +14,4 @@ $sql = "UPDATE pemesanan SET
 
 $result = $connect->query($sql);
 
-header('location:home.php');
+header('location:home.php#pemesanan');
