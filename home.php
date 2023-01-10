@@ -32,11 +32,59 @@
         <img src="images/banner.png" alt="" srcset="">
     </div>
 
-    <div class="pelayanan" id="pelayanan">
-        <h1 class="title-pelayanan">Pelayanan</h1>
-        <div class="garis-bawah"></div>
-        <p class="deskripsi-pelayanan">Layanan RAS Gas menyediakan pengiriman gas ke rumah atau tempat lain sesuai dengan kebutuhan pelanggan. Layanan Kami ini biasanya menggunakan kendaraan khusus yang dilengkapi dengan tabung-tabung gas yang akan dikirimkan ke tujuan pelanggan. Pelanggan dapat memesan gas melalui telepon atau melalui Website online, dan layanan akan mengirimkan gas ke rumah pelanggan pada waktu yang telah ditentukan. Layanan ini sangat berguna bagi pelanggan yang tidak memiliki waktu atau kemampuan untuk mengambil gas sendiri di toko atau stasiun bensin terdekat.</p>
-    </div>
+    <section id="pelayanan">
+        <div class="container">
+            <div class="row benefit-topHeader">
+                <div class="col-12 text-center">
+                    <h5>Pelayanan yang Kami Berikan</h5>
+                    <h2>Produk yang Tersedia di Toko Kami?</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 text-center">
+                    <div class="benefit-card shadow-lg p-3 mb-5 position-relative">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="images/gas3kg.png" alt="" class="position-absolute top-50 start-50 translate-middle" />
+                        </div>
+                        <h3>Gas 3 KG</h3>
+                        <h5>Sedia Antar dan Pasang Gratis di Rumah Anda dengan Harga eceran Rp.16.000</h5>
+                        <button class="benefit-button border-0 start-0 w-100 position-absolute bottom-0">
+                            View Details
+                            <img src="images/icon_smRight.png" alt="" />
+                        </button>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="benefit-card  shadow-lg p-3 mb-5 position-relative">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="images/gas12kg.png" alt="" class="position-absolute top-50 start-50 translate-middle" />
+                        </div>
+                        <h3>Gas 5 KG</h3>
+                        <h5>
+                            Sedia Antar dan Pasang Gratis di Rumah Anda dengan Harga eceran Rp.55.000
+                        </h5>
+                        <button class="benefit-button border-0 start-0 w-100 position-absolute bottom-0">
+                            View Details
+                            <img src="images/icon_smRight.png" alt="" />
+                        </button>
+                    </div>
+                </div>
+                <div class="col-4 text-center">
+                    <div class="benefit-card  shadow-lg p-3 mb-5 position-relative">
+                        <div class="circle-icon position-relative mx-auto">
+                            <img src="images/gas5kg.png" alt="" class="position-absolute top-50 start-50 translate-middle" />
+                        </div>
+                        <h3>Gas 12 KG</h3>
+                        <h5>Sedia Antar dan Pasang Gratis di Rumah Anda dengan Harga eceran Rp.215.000</h5>
+                        <button class="benefit-button border-0 start-0 w-100 position-absolute bottom-0">
+                            View Details
+                            <img src="images/icon_smRight.png" alt="" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div class="pemesanan" id="pemesanan">
         <div class="title_pemesanan">

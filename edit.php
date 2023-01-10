@@ -16,7 +16,6 @@
 <body>
     <div class="header">
         <a href="home.php">Home</a>
-        <a href="tambah.php">Pemesanan</a>
         <a href="#kontak">Kontak</a>
         <a href="index.php">LogOut</a>
     </div>
@@ -54,7 +53,7 @@
             </div>
             <div class="form-check">
                 <button type="submit" class="btn btn-success pull-right mt-3 me-3">Simpan</button>
-                <a href="home.php" class="btn btn-danger pull-right mt-3">Batal</a>
+                <a href="home.php#pemesanan" class="btn btn-danger pull-right mt-3">Batal</a>
             </div>
         </form>
 
