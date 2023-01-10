@@ -18,6 +18,9 @@
   background-color: #333;
   color: #fff;
   padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .header a {
@@ -232,7 +235,7 @@ select {
   margin-left: 10px;
 }
 
-#benefit .container {
+#pelayanan .container {
   margin-top: 150px;
 }
 

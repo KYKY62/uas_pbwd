@@ -16,6 +16,11 @@
 </head>
 
 <body>
+    <!-- Nama : Rizky Akbar Siregar
+    Nim  : 0702202066
+    Mata Kuliah : Pemograman Berbasis Web Dasar
+     -->
+
     <div class="header">
         <a href="#home">Home</a>
         <a href="#pelayanan">Pelayanan</a>
@@ -27,11 +32,13 @@
             LogOut
         </a>
     </div>
-
+    <!-- Home -->
     <div class="banner" id="home">
         <img src="images/banner.png" alt="" srcset="">
     </div>
+    <!--Akhir Home -->
 
+    <!-- Pelayanan -->
     <section id="pelayanan">
         <div class="container">
             <div class="row benefit-topHeader">
@@ -85,7 +92,9 @@
             </div>
         </div>
     </section>
+    <!-- Akhir Pelayanan -->
 
+    <!-- Pemesanan -->
     <div class="pemesanan" id="pemesanan">
         <div class="title_pemesanan">
             <h1>Pemesanan</h1>
@@ -215,9 +224,10 @@
                 ?>
             </table>
         </div>
-
     </div>
+    <!-- Akhir Pemesanan -->
 
+    <!-- Tentang -->
     <div class="tentang" id="tentang">
         <h1 class="title-pelayanan">Tentang Kami</h1>
         <div class="garis-bawah"></div>
@@ -232,7 +242,9 @@
             <button><a href="tambah.php">Pesan Sekarang</a></button>
         </div>
     </div>
+    <!-- Akhir Tentang -->
 
+    <!-- Kontak -->
     <div class="footer" id="kontak">
 
         <div class="contact">
@@ -246,7 +258,10 @@
         <p>Terima kasih telah mengunjungi website kami!</p>
         <p>RAS [RIZKY AKBAR SIREGAR] </p>
     </div>
+    <!-- Akhir Kontak -->
+
 </body>
+
 <script src="bootstrap/js/bootstrap.bundle.js"></script>
 
 </html>
