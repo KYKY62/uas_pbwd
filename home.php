@@ -17,7 +17,6 @@
 
 <body>
     <!-- Nama : Rizky Akbar Siregar
-    Nim  : 0702202066
     Mata Kuliah : Pemograman Berbasis Web Dasar
      -->
 
@@ -249,7 +248,7 @@
 
         <div class="contact">
             <img src="images/location_icon.png" alt="Alamat" width="20">
-            <p>Jl. Karya Jaya Gg Seroja, Medan</p>
+            <p>Jl. Kenangan Gang Abadi</p>
         </div>
         <div class="contact">
             <img src="images/customer_icon.png" alt="Telepon" width="20">
