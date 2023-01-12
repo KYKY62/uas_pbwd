@@ -8,8 +8,7 @@ RAS GAS merupakan sebuah website sederhana yang dapat melakukan Input data, meli
 
 ## Preview
 
-![img](https://ibb.co/LvYF5Kj)
-![img](https://ibb.co/nkPr5fQ)
+![screencapture-localhost-uas-pbwd-rizky-home-php-2023-01-12-19_40_28](https://user-images.githubusercontent.com/77371920/212077139-634cfa71-583f-4974-a31b-aec0f68f9bf0.png)
 
 ## Features RAS GAS
 
