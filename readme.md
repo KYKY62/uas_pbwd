@@ -2,7 +2,7 @@
 
 Website ini digunakan untuk keperluan Ujian Semester Akhir Pemograman Berbasis Web Dasar
 
-[![GitHub watchers](https://badgen.net/github/watchers/KYKY62/uas_pbwd/)](https://github.com/KYKY62/uas_pbwd/watchers/) [![made-with-Html](https://img.shields.io/badge/Made%20with-Html-1f425f.svg)]() [![made-with-Css](https://img.shields.io/badge/Made%20with-Css-1f425f.svg)]() [![made-with-Bootstrap](https://img.shields.io/badge/Made%20with-Bootstrap-1f425f.svg)](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+[![GitHub watchers](https://badgen.net/github/watchers/KYKY62/uas_pbwd/)](https://github.com/KYKY62/uas_pbwd/watchers/) [![made-with-Php](https://img.shields.io/badge/Made%20with-Php-1f425f.svg)]() [![made-with-Css](https://img.shields.io/badge/Made%20with-Css-1f425f.svg)]() [![made-with-Bootstrap](https://img.shields.io/badge/Made%20with-Bootstrap-1f425f.svg)](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 
 RAS GAS merupakan sebuah website sederhana yang dapat melakukan Input data, melihat data, mengedit data, dan menghapus data diperuntukan untuk Tugas Akhir Saya.
 
